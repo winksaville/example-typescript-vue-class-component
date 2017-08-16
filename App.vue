@@ -22,7 +22,7 @@ export default class App extends Vue {
   propMessage: string
 
   // inital data
-  msg: number = 123
+  msg: string = 'a msg'
 
   // use prop values for initial data
   helloMsg: string = 'Hello, ' + this.propMessage
